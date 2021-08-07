@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div>
       <h1>Main App</h1>
-      <BuilderForm parts={WHEEL_OPTIONS} />
+      <BuilderForm parts={WHEEL_OPTIONS, SADDLE_OPTIONS} />
     </div>
   );
 }
